@@ -9,7 +9,7 @@ testing
 1. clone this repository https://github.com/Levena-Nthanda/bookish-potato.
 2. Open Stata and set the working directory: cd "path/to/repository"
 # Usage
-Run thr main dofile using do myscript.do
+Run the main dofile using do myscript.do
 # Author
 Created by Levena Banda
 
