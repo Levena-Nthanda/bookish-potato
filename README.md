@@ -6,7 +6,7 @@ testing
 - **Stata version 17 and older
 
 # Installation
-1. clone this repository
+1. clone this repository https://github.com/Levena-Nthanda/bookish-potato.
 2. Open Stata and set the working directory: cd "path/to/repository"
 # Usage
 Run thr main dofile using do myscript.do
