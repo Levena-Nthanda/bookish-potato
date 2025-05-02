@@ -1,6 +1,6 @@
 # bookish-potato
 testing
-git add dissertationfinal.do
+git add https://github.com/Levena-Nthanda/bookish-potato/blob/main/dissertationfinal.do
 git commit -m "Added dissertationfinal.do file"
 git push origin main
 * the dofile contains the script to test the code, used for cleaning, analysis and visualisation. The scripts automate various statistical tasks and generate reproducible outputs.
