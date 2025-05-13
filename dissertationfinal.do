@@ -416,14 +416,14 @@ health_status, insurance, lnincome, edu, sex_age, sex_urban, ///
 employment_status, par_edu, distance)
 
 *** Ordering
-	order age age2 age_group life_exp sex com mortality_risk health_seek health_status urban pvt lnhce lnincome one_sr asmr insurance employment_status par_edu alc_tob distance sex_urban sex_age hh_wgt hh_d04 hh_d07a hh_d07b lnconsumption case_id HHID PID hce
+	order age age2 age_group life_exp sex com mortality_risk health_seek health_status urban pvt lnhce lnincome asmr insurance employment_status par_edu alc_tob distance sex_urban sex_age hh_wgt hh_d04 hh_d07a hh_d07b lnconsumption case_id HHID PID hce
 
 	drop if missing(edu, distance, health_status)
     save "$dataout\DIZZE", replace
 
 *****************************************************
 *****************************************************					
-					
+ gen ttd = .
 *** ANALYSIS
 
 *** Descriptive statistics
