@@ -5,7 +5,14 @@
 *Supervisor:  Dr Farai Chigaru
 **********************************************************
 **********************************************************
-
+*** Github
+    ! echo # github-tutorial  >> README.md
+    ! git init
+	
+    shell git add .
+    shell git commit -m "updated"
+    shell git push
+	
 *** Macros for all file paths
     macro drop all
     global wf          "C:\Users\Levena\OneDrive\Desktop\Dissertation"
