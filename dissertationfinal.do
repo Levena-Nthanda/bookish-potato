@@ -5,12 +5,6 @@
 *Supervisor:  Dr Farai Chigaru
 **********************************************************
 **********************************************************
-*** Github
-    ! git init
-	
-    shell git add .
-    shell git commit -m "updated"
-    shell git push
 	
 *** Macros for all file paths
     macro drop all
