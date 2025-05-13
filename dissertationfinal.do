@@ -642,3 +642,6 @@ gen hale_corrected = life_exp - (years_with_illness * disability_burden2)
     bysort HHID: egen unique_vals = total(dup)
 
     list HHID hce unique_vals if unique_vals > 1, sepby(HHID) //individual
+
+	//testing to see if if stata has synced with github
+	
