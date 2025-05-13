@@ -8,7 +8,7 @@
 *** Github
     ! echo # github-tutorial  >> README.md
     ! git init
-	gen levena = 0 //what happens if i type code in github?
+	
     shell git add .
     shell git commit -m "updated"
     shell git push
